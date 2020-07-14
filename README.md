@@ -9,8 +9,7 @@ Labels are arranged in the following way: [joy, fear, anger, sadness, disgust, s
 
 B. Build a representation of words using pre-trained Word2Vec word vectors 
 
-C. Build a sentence representation: Average word-vectors in a sentence or use flattened sequence representation (requires padding as sentences have a varying length). If you want, please reffer to [awesome-sentence-embedding](https://github.com/Separius/awesome-sentence-embedding) set of alternative sentence embedding approaches.
-
+C. Build a sentence representation: Average word-vectors in a sentence.
 *Expected outcome:* Representation of sentences that can be used to feed the neural network 
 
 2.  **Classifier building**. Build an MLP network using Tensorflow to classify sentences
